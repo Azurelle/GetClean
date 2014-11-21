@@ -1,23 +1,32 @@
-GetClean - Getting and Cleaning Data Project
+GetClean
 ========
 
-Scripts: 
+Summary: Project for Coursera's "Getting and Cleaning Data"
+
+R scripts: 
 
 run_analysis.R
 
-Summary:  This script is used to
+run_analysis.R is used to:
 
 1.  Download a zip file from the course website for the UCI HAR data
 
 2.  Create a single data frame called “df” from the following text files:
 
      activity_labels.txt
+
      features.txt 
+
      subject_test.txt     
+
      subject_train.txt
+
      X_test.txt
+
      y_test.txt
+
      X_train.txt  
+
      y_train.txt
 
 where

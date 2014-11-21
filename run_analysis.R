@@ -110,7 +110,7 @@ n<-ncol(df)
 melted <- melt(df[,3:n],id=c("subjectID", "activity"))
 meansDF <- data.frame(cast(melted, subjectID+activity~variable, mean))
 
-write.table(meansDF, file="meansBySubjectActivity.csv", sep=",", na="NA", col.names=T, row.names=F )
+write.table(meansDF, file="meansBySubjectActivity.txt", sep=",", na="NA", col.names=T, row.names=F )
 
 
 

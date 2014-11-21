@@ -2,7 +2,7 @@ Filename:  meansBySubjectActivity.csv
 
 Creation script: See README.md for a description of the script that was used to create this file.
 
-Description:
+Variable descriptions:
 
 The first two columns are "subjectID" and "activity".  "subjectID" is an integer between 1 and 30 and identifies the study subject.  "activity" is a factor variable with 6 levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.  The remaining 66 columns are the response variables for various measurements on the subjects.  All measurements are between -1 and 1, and there are no missing values. The column names are:
 
@@ -75,7 +75,9 @@ freqBodyBodyAccJerkMagStdDev
 freqBodyBodyGyroMagStdDev
 freqBodyBodyGyroJerkMagStdDev
 
-The column names themselves were shortened and changed. The brackets, dashes, underscores, spaces and slashes were removed, letters were changed from upper to lower case to be more readable, and the first letter of each response variable name was expanded from "t" and "f" to "time" or "freq".  The variable "activity" was recast from integers 1 to 6 to WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+Data Cleaning:
+
+The column names themselves were shortened and changed. The brackets, dashes, underscores, spaces and slashes were removed, letters were changed from upper to lower case to be more readable, and the first letter of each response variable name was expanded from "t" and "f" to "time" or "freq".  The variable "activity" was changed from integers 1 through 6 to "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING".
     
 
 
