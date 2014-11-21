@@ -3,9 +3,11 @@ GetClean
 
 Summary: Project for Coursera's "Getting and Cleaning Data"
 
-R scripts: 
+The original README file that accompanied the raw data from the "Human Activity Recognition Using Smartphones" study is called Original_UCI_HAR_ReadMeCodebook.txt in this git repository.  It provides a brief description of the study and the raw data files.  
 
-run_analysis.R
+This README file describes how these data were read into R (via RStudio) and used to create the output file of response variable means, "meansBySubjectActivity.txt".
+
+R scripts:  run_analysis.R
 
 run_analysis.R is used to:
 
