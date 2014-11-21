@@ -1,6 +1,7 @@
 Filename:  meansBySubjectActivity.csv
 
-Creation script: See README.md for a description of the script that was used to create this file.
+Creation script: run_analysis.R
+See README.md for a description of the script that was used to create this file.
 
 Variable descriptions:
 
